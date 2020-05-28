@@ -1,4 +1,4 @@
-# Tennis-Game
+# Tennis Game v1.0
 A basic tennis game, generally known as Ping Pong, built using HTML Canvas and JavaScript.
 
 # How to Play?
