@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    height: 92vh;
+    background-color: rgb(146, 238, 187);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-around;
+}
+
+.details {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.details h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+.game {
+    display: flex;
+}
+
+#gameCanvas {
+    border-radius: 30px;
+    margin: auto;
+}
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+select,
+input {
+    width: 250px;
+    font-size: 18px;
+    padding: 2% 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    box-sizing: border-box;
+}
+
+select:focus,
+input:focus {
+    outline: none;
+}
+
+button {
+    width: 150px;
+    border: 1px solid black;
+    box-shadow: 9px 9px 20px #00000029;
+    border-radius: 10px;
+    padding: 10px 0;
+    transition: 0.2s;
+    outline: none;
+    font-size: 16px;
+}
+
+button:active {
+    transform: translateY(2px) scale(0.97);
+}
+
+#ready:hover {
+    color: #e0e042;
+    background-color: black;
+}
+#reset:hover {
+    color: #f44336;
+    background-color: black;
+}
+#play-btn:hover {
+    color: #4CAF50;
+    background-color: black;
+}
+#pause:hover {
+    color: #0397c9;
+    background-color: black;
+}
+
+#ready {
+    background-color: #e0e042;
+}
+#reset {
+    background-color: #f44336;;
+}
+#play-btn {
+    background-color: #4CAF50;;
+}
+#pause {
+    background-color: #0397c9;;
+}
+
+footer {
+    background-color: black;
+    font-size: 18px;
+    color: white;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0 8%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#linked{
+    width: 25px;
+    margin-left: 15px;
+}
+
+footer p {
+    display: flex;
+    align-items: center;
+}
+
+footer span {
+    font-size: 15px;
+    margin-left: 100px;
+}
